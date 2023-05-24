@@ -7,6 +7,8 @@
 5.1 Лучше val task = taskQueue.get(0) -> val task = taskQueue[0]
 5.2 А ещё лучше taskQueue.poll() (в кейсе 5.1 нужно удалить последний элемент)
 5.2.1 В случае 5.2 понадобится null-check: например, task?.run()
+6. (Бонус) Дополнить javadoc методов + написать для класса
+7. (Бонус) Написать тест(-ы)
  */
 package com.example.looperandhandler
 
